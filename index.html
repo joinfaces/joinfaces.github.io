@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>JoinFaces by joinfaces</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+  </head>
+  <body>
+    <section class="page-header">
+      <h1 class="project-name">JoinFaces</h1>
+      <h2 class="project-tagline">JSF Spring Boot Starters</h2>
+    </section>
+
+    <section class="main-content">
+      <h3>
+<a id="what-is-joinfaces" class="anchor" href="#what-is-joinfaces" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>What is JoinFaces?</h3>
+
+<p>This project enables <a href="http://www.oracle.com/technetwork/java/javaee/javaserverfaces-139869.html">JSF</a> usage inside JAR packaged <a href="http://projects.spring.io/spring-boot/">Spring Boot</a> Application. </p>
+
+<p>It autoconfigures <a href="http://primefaces.org/">PrimeFaces</a>, <a href="http://primefaces-extensions.github.io/">PrimeFaces Extensions</a>, <a href="http://bootsfaces.net/">BootsFaces</a>, <a href="http://butterfaces.org/">ButterFaces</a>, <a href="http://omnifaces.org/">OmniFaces</a>, <a href="http://angularfaces.net/">AngularFaces</a>, <a href="https://javaserverfaces.java.net/">Mojarra</a> and <a href="http://myfaces.apache.org/">MyFaces</a> libraries to run at embedded <a href="http://tomcat.apache.org/">Tomcat</a>, <a href="http://www.eclipse.org/jetty">Jetty</a> or <a href="http://undertow.io">Undertow</a> servlet containers.</p>
+
+<p>It also aims to solve <a href="http://www.oracle.com/technetwork/java/javaee/javaserverfaces-139869.html">JSF</a> and <a href="http://projects.spring.io/spring-boot/">Spring Boot</a> integration features. Current version includes <a href="http://www.oracle.com/technetwork/java/javaee/javaserverfaces-139869.html">JSF</a> and <a href="http://www.cdi-spec.org/">CDI</a> annotations support and <a href="http://projects.spring.io/spring-security/">Spring Security</a> JSF Facelet Tag support.</p>
+
+<h2>
+<a id="how-to-use" class="anchor" href="#how-to-use" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>How to use</h2>
+
+<p><a href="https://github.com/joinfaces/joinfaces-example">JoinFaces Example</a> shows JSF Spring Boot Starter usage. It may help you to choose the JSF Spring Boot Starter that fits your needs.</p>
+
+<p>You can find more examples <a href="https://github.com/joinfaces/joinfaces/wiki/Some-examples-of-JSF-Spring-Boot-Starter-usage">here.</a></p>
+
+<h2>
+<a id="key-features" class="anchor" href="#key-features" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Key Features</h2>
+
+<h3>
+<a id="eighteen-jsf-spring-boot-starters-available" class="anchor" href="#eighteen-jsf-spring-boot-starters-available" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Eighteen JSF Spring Boot Starters available</h3>
+
+<table>
+<thead>
+<tr>
+<th>Starter</th>
+<th>Servlet Container</th>
+<th>JSF Implementation</th>
+<th>JSF Libraries</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>jsf-spring-boot-starter</td>
+<td><a href="http://tomcat.apache.org/">Tomcat</a></td>
+<td><a href="https://javaserverfaces.java.net/">Mojarra</a></td>
+<td>
+<a href="http://primefaces.org">PrimeFaces 6.0</a>, <a href="http://primefaces-extensions.github.io/">PrimeFaces Extensions 6.0.0</a>
+</td>
+</tr>
+<tr>
+<td>jsf-bootsfaces-spring-boot-starter</td>
+<td><a href="http://tomcat.apache.org/">Tomcat</a></td>
+<td><a href="https://javaserverfaces.java.net/">Mojarra</a></td>
+<td>
+<a href="http://bootsfaces.net">BootsFaces 0.9.1</a>, <a href="http://angularfaces.net">AngularFaces 2.1.3</a>, <a href="http://primefaces.org">PrimeFaces 6.0</a>, <a href="http://primefaces-extensions.github.io/">PrimeFaces Extensions 6.0.0</a>
+</td>
+</tr>
+<tr>
+<td>jsf-butterfaces-spring-boot-starter</td>
+<td><a href="http://tomcat.apache.org/">Tomcat</a></td>
+<td><a href="https://javaserverfaces.java.net/">Mojarra</a></td>
+<td>
+<a href="http://butterfaces.org">ButterFaces 2.1.9</a>, <a href="http://bootsfaces.net">BootsFaces 0.9.1</a>, <a href="http://primefaces.org">PrimeFaces 6.0</a>, <a href="http://primefaces-extensions.github.io/">PrimeFaces Extensions 6.0.0</a>
+</td>
+</tr>
+<tr>
+<td>jsf-myfaces-spring-boot-starter</td>
+<td><a href="http://tomcat.apache.org/">Tomcat</a></td>
+<td><a href="http://myfaces.apache.org/">MyFaces</a></td>
+<td>
+<a href="http://primefaces.org">PrimeFaces 6.0</a>, <a href="http://primefaces-extensions.github.io/">PrimeFaces Extensions 6.0.0</a>
+</td>
+</tr>
+<tr>
+<td>jsf-myfaces-bootsfaces-spring-boot-starter</td>
+<td><a href="http://tomcat.apache.org/">Tomcat</a></td>
+<td><a href="http://myfaces.apache.org/">MyFaces</a></td>
+<td>
+<a href="http://bootsfaces.net">BootsFaces 0.9.1</a>, <a href="http://angularfaces.net">AngularFaces 2.1.3</a>, <a href="http://primefaces.org">PrimeFaces 6.0</a>, <a href="http://primefaces-extensions.github.io/">PrimeFaces Extensions 6.0.0</a>
+</td>
+</tr>
+<tr>
+<td>jsf-myfaces-butterfaces-spring-boot-starter</td>
+<td><a href="http://tomcat.apache.org/">Tomcat</a></td>
+<td><a href="http://myfaces.apache.org/">MyFaces</a></td>
+<td>
+<a href="http://butterfaces.org">ButterFaces 2.1.9</a>, <a href="http://bootsfaces.net">BootsFaces 0.9.1</a>, <a href="http://primefaces.org">PrimeFaces 6.0</a>, <a href="http://primefaces-extensions.github.io/">PrimeFaces Extensions 6.0.0</a>
+</td>
+</tr>
+<tr>
+<td>jsf-jetty-spring-boot-starter</td>
+<td><a href="http://www.eclipse.org/jetty">Jetty</a></td>
+<td><a href="https://javaserverfaces.java.net/">Mojarra</a></td>
+<td>
+<a href="http://primefaces.org">PrimeFaces 6.0</a>, <a href="http://primefaces-extensions.github.io/">PrimeFaces Extensions 6.0.0</a>
+</td>
+</tr>
+<tr>
+<td>jsf-jetty-bootsfaces-spring-boot-starter</td>
+<td><a href="http://www.eclipse.org/jetty">Jetty</a></td>
+<td><a href="https://javaserverfaces.java.net/">Mojarra</a></td>
+<td>
+<a href="http://bootsfaces.net">BootsFaces 0.9.1</a>, <a href="http://angularfaces.net">AngularFaces 2.1.3</a>, <a href="http://primefaces.org">PrimeFaces 6.0</a>, <a href="http://primefaces-extensions.github.io/">PrimeFaces Extensions 6.0.0</a>
+</td>
+</tr>
+<tr>
+<td>jsf-jetty-butterfaces-spring-boot-starter</td>
+<td><a href="http://www.eclipse.org/jetty">Jetty</a></td>
+<td><a href="https://javaserverfaces.java.net/">Mojarra</a></td>
+<td>
+<a href="http://butterfaces.org">ButterFaces 2.1.9</a>, <a href="http://bootsfaces.net">BootsFaces 0.9.1</a>, <a href="http://primefaces.org">PrimeFaces 6.0</a>, <a href="http://primefaces-extensions.github.io/">PrimeFaces Extensions 6.0.0</a>
+</td>
+</tr>
+<tr>
+<td>jsf-jetty-myfaces-spring-boot-starter</td>
+<td><a href="http://www.eclipse.org/jetty">Jetty</a></td>
+<td><a href="http://myfaces.apache.org/">MyFaces</a></td>
+<td>
+<a href="http://primefaces.org">PrimeFaces 6.0</a>, <a href="http://primefaces-extensions.github.io/">PrimeFaces Extensions 6.0.0</a>
+</td>
+</tr>
+<tr>
+<td>jsf-jetty-myfaces-bootsfaces-spring-boot-starter</td>
+<td><a href="http://www.eclipse.org/jetty">Jetty</a></td>
+<td><a href="http://myfaces.apache.org/">MyFaces</a></td>
+<td>
+<a href="http://bootsfaces.net">BootsFaces 0.9.1</a>, <a href="http://angularfaces.net">AngularFaces 2.1.3</a>, <a href="http://primefaces.org">PrimeFaces 6.0</a>, <a href="http://primefaces-extensions.github.io/">PrimeFaces Extensions 6.0.0</a>
+</td>
+</tr>
+<tr>
+<td>jsf-jetty-myfaces-butterfaces-spring-boot-starter</td>
+<td><a href="http://www.eclipse.org/jetty">Jetty</a></td>
+<td><a href="http://myfaces.apache.org/">MyFaces</a></td>
+<td>
+<a href="http://butterfaces.org">ButterFaces 2.1.9</a>, <a href="http://bootsfaces.net">BootsFaces 0.9.1</a>, <a href="http://primefaces.org">PrimeFaces 6.0</a>, <a href="http://primefaces-extensions.github.io/">PrimeFaces Extensions 6.0.0</a>
+</td>
+</tr>
+<tr>
+<td>jsf-undertow-spring-boot-starter</td>
+<td><a href="http://undertow.io">Undertow</a></td>
+<td><a href="https://javaserverfaces.java.net/">Mojarra</a></td>
+<td>
+<a href="http://primefaces.org">PrimeFaces 6.0</a>, <a href="http://primefaces-extensions.github.io/">PrimeFaces Extensions 6.0.0</a>
+</td>
+</tr>
+<tr>
+<td>jsf-undertow-bootsfaces-spring-boot-starter</td>
+<td><a href="http://undertow.io">Undertow</a></td>
+<td><a href="https://javaserverfaces.java.net/">Mojarra</a></td>
+<td>
+<a href="http://bootsfaces.net">BootsFaces 0.9.1</a>, <a href="http://angularfaces.net">AngularFaces 2.1.3</a>, <a href="http://primefaces.org">PrimeFaces 6.0</a>, <a href="http://primefaces-extensions.github.io/">PrimeFaces Extensions 6.0.0</a>
+</td>
+</tr>
+<tr>
+<td>jsf-undertow-butterfaces-spring-boot-starter</td>
+<td><a href="http://undertow.io">Undertow</a></td>
+<td><a href="https://javaserverfaces.java.net/">Mojarra</a></td>
+<td>
+<a href="http://butterfaces.org">ButterFaces 2.1.9</a>, <a href="http://bootsfaces.net">BootsFaces 0.9.1</a>, <a href="http://primefaces.org">PrimeFaces 6.0</a>, <a href="http://primefaces-extensions.github.io/">PrimeFaces Extensions 6.0.0</a>
+</td>
+</tr>
+<tr>
+<td>jsf-undertow-myfaces-spring-boot-starter</td>
+<td><a href="http://undertow.io">Undertow</a></td>
+<td><a href="http://myfaces.apache.org/">MyFaces</a></td>
+<td>
+<a href="http://primefaces.org">PrimeFaces 6.0</a>, <a href="http://primefaces-extensions.github.io/">PrimeFaces Extensions 6.0.0</a>
+</td>
+</tr>
+<tr>
+<td>jsf-undertow-myfaces-bootsfaces-spring-boot-starter</td>
+<td><a href="http://undertow.io">Undertow</a></td>
+<td><a href="http://myfaces.apache.org/">MyFaces</a></td>
+<td>
+<a href="http://bootsfaces.net">BootsFaces 0.9.1</a>, <a href="http://angularfaces.net">AngularFaces 2.1.3</a>, <a href="http://primefaces.org">PrimeFaces 6.0</a>, <a href="http://primefaces-extensions.github.io/">PrimeFaces Extensions 6.0.0</a>
+</td>
+</tr>
+<tr>
+<td>jsf-undertow-myfaces-bootsfaces-spring-boot-starter</td>
+<td><a href="http://undertow.io">Undertow</a></td>
+<td><a href="http://myfaces.apache.org/">MyFaces</a></td>
+<td>
+<a href="http://butterfaces.org">ButterFaces 2.1.9</a>, <a href="http://bootsfaces.net">BootsFaces 0.9.1</a>, <a href="http://primefaces.org">PrimeFaces 6.0</a>, <a href="http://primefaces-extensions.github.io/">PrimeFaces Extensions 6.0.0</a>
+</td>
+</tr>
+</tbody>
+</table>
+
+<p>Note that all starters include the following libraries</p>
+
+<table>
+<thead>
+<tr>
+<th>Library</th>
+<th>Dependency</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="http://primefaces.org/">primefaces-all-themes</a></td>
+<td><a href="http://search.maven.org/#artifactdetails%7Corg.primefaces.extensions%7Call-themes%7C1.0.8%7Cjar">1.0.8</a></td>
+<td>Themes for primefaces</td>
+</tr>
+<tr>
+<td><a href="http://omnifaces.org/">omnifaces</a></td>
+<td><a href="http://search.maven.org/#artifactdetails%7Corg.omnifaces%7Comnifaces%7C1.14%7Cjar">1.14</a></td>
+<td>Utility library for JSF 2</td>
+</tr>
+<tr>
+<td><a href="http://www.cdi-spec.org/">cdi-api</a></td>
+<td><a href="http://search.maven.org/#artifactdetails%7Cjavax.enterprise%7Ccdi-api%7C1.2%7Cjar">1.2</a></td>
+<td>Api of CDI (Contexts and Dependency Injection)</td>
+</tr>
+</tbody>
+</table>
+
+<h3>
+<a id="jsf-properties-configuration-via-applicationproperties-or-applicationyml" class="anchor" href="#jsf-properties-configuration-via-applicationproperties-or-applicationyml" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>JSF properties configuration via application.properties or application.yml</h3>
+
+<table>
+<thead>
+<tr>
+<th>Library</th>
+<th>Namespace</th>
+<th>Example</th>
+<th>Full Example</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>standard (javax.faces)</td>
+<td>jsf</td>
+<td>jsf.PROJECT_STAGE: Development</td>
+<td><a href="https://github.com/joinfaces/joinfaces/blob/master/jsf-spring-boot-autoconfigures/jsf-spring-boot-autoconfigure/src/test/resources/application.yml">application.yml</a></td>
+</tr>
+<tr>
+<td><a href="http://primefaces.org/">primefaces</a></td>
+<td>jsf.primefaces</td>
+<td>jsf.primefaces.theme: overcast</td>
+<td><a href="https://github.com/joinfaces/joinfaces/blob/master/jsf-spring-boot-autoconfigures/jsf-primefaces-spring-boot-autoconfigure/src/test/resources/application.yml">application.yml</a></td>
+</tr>
+<tr>
+<td><a href="http://bootsfaces.net/">bootsfaces</a></td>
+<td>jsf.bootsfaces</td>
+<td>jsf.bootsfaces.USETHEME: true</td>
+<td><a href="https://github.com/joinfaces/joinfaces/blob/master/jsf-spring-boot-autoconfigures/jsf-bootsfaces-spring-boot-autoconfigure/src/test/resources/application.yml">application.yml</a></td>
+</tr>
+<tr>
+<td><a href="http://butterfaces.org/">butterfaces</a></td>
+<td>jsf.butterfaces</td>
+<td>jsf.butterfaces.provideJQuery: true</td>
+<td><a href="https://github.com/joinfaces/joinfaces/blob/master/jsf-spring-boot-autoconfigures/jsf-butterfaces-spring-boot-autoconfigure/src/test/resources/application.yml">application.yml</a></td>
+</tr>
+<tr>
+<td><a href="http://omnifaces.org/">omnifaces</a></td>
+<td>jsf.omnifaces</td>
+<td>jsf.omnifaces.FACES_VIEWS_ENABLED: true</td>
+<td><a href="https://github.com/joinfaces/joinfaces/blob/master/jsf-spring-boot-autoconfigures/jsf-omnifaces-spring-boot-autoconfigure/src/test/resources/application.yml">application.yml</a></td>
+</tr>
+<tr>
+<td><a href="http://angularfaces.net/">angularfaces</a></td>
+<td>jsf.angularfaces</td>
+<td>jsf.angularfaces.addLabels: true</td>
+<td><a href="https://github.com/joinfaces/joinfaces/blob/master/jsf-spring-boot-autoconfigures/jsf-angularfaces-spring-boot-autoconfigure/src/test/resources/application.yml">application.yml</a></td>
+</tr>
+<tr>
+<td><a href="https://javaserverfaces.java.net/">mojarra</a></td>
+<td>jsf.mojarra</td>
+<td>jsf.mojarra.preferXHTML: true</td>
+<td><a href="https://github.com/joinfaces/joinfaces/blob/master/jsf-spring-boot-autoconfigures/jsf-mojarra-spring-boot-autoconfigure/src/test/resources/application.yml">application.yml</a></td>
+</tr>
+<tr>
+<td><a href="http://myfaces.apache.org/">myfaces</a></td>
+<td>jsf.myfaces</td>
+<td>jsf.myfaces.PRETTY_HTML: true</td>
+<td><a href="https://github.com/joinfaces/joinfaces/blob/master/jsf-spring-boot-autoconfigures/jsf-myfaces-spring-boot-autoconfigure/src/test/resources/application.yml">application.yml</a></td>
+</tr>
+<tr>
+<td><a href="http://www.eclipse.org/jetty">jetty</a></td>
+<td>jsf.jetty</td>
+<td>jsf.jetty.classPathResource: META-INF/resources</td>
+<td><a href="https://github.com/joinfaces/joinfaces/blob/master/jsf-spring-boot-autoconfigures/jsf-jetty-spring-boot-autoconfigure/src/test/resources/application.yml">application.yml</a></td>
+</tr>
+<tr>
+<td><a href="http://undertow.io">undertow</a></td>
+<td>jsf.undertow</td>
+<td>jsf.undertow.classPathResource: META-INF/resources</td>
+<td><a href="https://github.com/joinfaces/joinfaces/blob/master/jsf-spring-boot-autoconfigures/jsf-undertow-spring-boot-autoconfigure/src/test/resources/application.yml">application.yml</a></td>
+</tr>
+</tbody>
+</table>
+
+<p>Additional information in <a href="https://github.com/joinfaces/joinfaces/issues/22">#22</a></p>
+
+<h3>
+<a id="jsf-and-cdi-annotations-support-automatically" class="anchor" href="#jsf-and-cdi-annotations-support-automatically" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>JSF and CDI annotations support automatically</h3>
+
+<table>
+<thead>
+<tr>
+<th>Annotation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="http://docs.oracle.com/javaee/7/api/javax/faces/bean/NoneScoped.html">@NoneScoped</a></td>
+</tr>
+<tr>
+<td><a href="http://docs.oracle.com/javaee/7/api/javax/enterprise/context/RequestScoped.html">@RequestScoped</a></td>
+</tr>
+<tr>
+<td><a href="http://docs.oracle.com/javaee/7/api/javax/faces/view/ViewScoped.html">@ViewScoped</a></td>
+</tr>
+<tr>
+<td><a href="http://docs.oracle.com/javaee/7/api/javax/enterprise/context/SessionScoped.html">@SessionScoped</a></td>
+</tr>
+<tr>
+<td><a href="http://docs.oracle.com/javaee/7/api/javax/enterprise/context/ApplicationScoped.html">@ApplicationScoped</a></td>
+</tr>
+</tbody>
+</table>
+
+<h3>
+<a id="spring-security-jsf-facelet-tag-support" class="anchor" href="#spring-security-jsf-facelet-tag-support" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Spring Security JSF Facelet Tag support</h3>
+
+<p>Namespace: <strong><a href="http://www.springframework.org/security/tags">http://www.springframework.org/security/tags</a></strong></p>
+
+<table>
+<thead>
+<tr>
+<th>Tag</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>authorize</td>
+<td>perform Spring Security authorization decisions, using attributes: ifAnyGranted, ifAllGranted, ifNotGranted, access, url, method, var.</td>
+</tr>
+<tr>
+<td>anonymous</td>
+<td>verify if the user is anonymous.</td>
+</tr>
+<tr>
+<td>authenticated</td>
+<td>verify if the user is not anonymous.</td>
+</tr>
+<tr>
+<td>fullyAuthenticated</td>
+<td>verify if the is not an anonymous or a remember-me user.</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th>Function</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>areAllGranted</td>
+<td>returns true if the user has all of of the given authorities.</td>
+</tr>
+<tr>
+<td>areAnyGranted</td>
+<td>returns true if the user has any of the given authorities.</td>
+</tr>
+<tr>
+<td>areNotGranted</td>
+<td>returns true if the user does not have any of the given authorities.</td>
+</tr>
+<tr>
+<td>isAllowed</td>
+<td>returns true if the user is allowed to access the given URL and HTTP method combination.</td>
+</tr>
+<tr>
+<td>isAnonymous</td>
+<td>returns true if user is anonymous.</td>
+</tr>
+<tr>
+<td>isAuthenticated</td>
+<td>returns true if the user is not anonymous.</td>
+</tr>
+<tr>
+<td>isFullyAuthenticated</td>
+<td>returns true if the is not an anonymous or a remember-me user.</td>
+</tr>
+</tbody>
+</table>
+
+<p>Additional information in <a href="https://github.com/joinfaces/joinfaces/issues/29">#29</a></p>
+
+<h2>
+<a id="system-requirements" class="anchor" href="#system-requirements" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>System Requirements</h2>
+
+<p>By default, JSF Spring Boot Starter requires <a href="http://java.com">Java 7</a> and <a href="http://projects.spring.io/spring-boot/">Spring Boot 1.3.6</a> or above.</p>
+
+<h2>
+<a id="getting-help" class="anchor" href="#getting-help" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Getting Help</h2>
+
+<ul>
+<li>Report questions and bugs at <a href="https://github.com/joinfaces/joinfaces/issues">github.com/joinfaces/joinfaces/issues</a>.</li>
+</ul>
+
+<h2>
+<a id="contributing" class="anchor" href="#contributing" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Contributing</h2>
+
+<ul>
+<li>Report documentation, features, enhancement and bugs at <a href="https://github.com/joinfaces/joinfaces/issues">github.com/joinfaces/joinfaces/issues</a>.</li>
+<li>Pull requests are welcome.</li>
+</ul>
+
+<h2>
+<a id="structure" class="anchor" href="#structure" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Structure</h2>
+
+<p>This software is multi module <a href="http://maven.apache.org">Maven</a> project and follows <a href="http://docs.spring.io/spring-boot/docs/current/reference/html/boot-features-developing-auto-configuration.html">Spring Boot Reference</a> to create JSF Auto Configuration. <a href="https://github.com/joinfaces/joinfaces/wiki/Structure-of-the-software">See what's inside each submodule.</a></p>
+
+      <footer class="site-footer">
+
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
+      </footer>
+
+    </section>
+
+  
+  </body>
+</html>
