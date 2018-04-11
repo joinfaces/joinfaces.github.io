@@ -26,52 +26,28 @@
       <h2>
 <a id="what-is-joinfaces" class="anchor" href="#what-is-joinfaces" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>What is JoinFaces?</h2>
 
-<p>This project enables <a href="http://www.oracle.com/technetwork/java/javaee/javaserverfaces-139869.html">JSF</a> usage inside JAR packaged <a href="http://projects.spring.io/spring-boot/">Spring Boot</a> Application. </p>
+<p>This project enables <a href="http://www.oracle.com/technetwork/java/javaee/javaserverfaces-139869.html">JSF</a> usage inside <a href="http://projects.spring.io/spring-boot/">Spring Boot</a> Application. </p>
 
-<p>It autoconfigures <a href="http://primefaces.org/">PrimeFaces</a>, <a href="http://primefaces-extensions.github.io/">PrimeFaces Extensions</a>, <a href="https://adminfaces.github.io/site/">AdminFaces</a>, <a href="http://bootsfaces.net/">BootsFaces</a>, <a href="http://butterfaces.org/">ButterFaces</a>, <a href="https://github.com/richfaces/richfaces">RichFaces</a>, <a href="http://omnifaces.org/">OmniFaces</a>, <a href="http://angularfaces.net/">AngularFaces</a>, <a href="https://javaserverfaces.java.net/">Mojarra</a> and <a href="http://myfaces.apache.org/">MyFaces</a> libraries to run at embedded <a href="http://tomcat.apache.org/">Tomcat</a>, <a href="http://www.eclipse.org/jetty">Jetty</a> or <a href="http://undertow.io">Undertow</a> servlet containers.</p>
+<p>It autoconfigures <a href="http://primefaces.org/">PrimeFaces</a>, <a href="http://primefaces-extensions.github.io/">PrimeFaces Extensions</a>, <a href="https://adminfaces.github.io/site/">AdminFaces</a>, <a href="http://bootsfaces.net/">BootsFaces</a>, <a href="http://butterfaces.org/">ButterFaces</a>, <a href="https://github.com/richfaces/richfaces">RichFaces</a>, <a href="http://omnifaces.org/">OmniFaces</a>, <a href="http://angularfaces.net/">AngularFaces</a>, <a href="https://javaserverfaces.java.net/">Mojarra</a> and <a href="http://myfaces.apache.org/">MyFaces</a> libraries to run at embedded <a href="http://tomcat.apache.org/">Tomcat</a>, <a href="http://www.eclipse.org/jetty">Jetty</a> or <a href="http://undertow.io">Undertow</a> servlet containers. It autoconfigures <a href="http://weld.cdi-spec.org">Weld</a> and <a href="https://www.ocpsoft.org/rewrite/">Rewrite</a> too.</p>
 
 <p>It also aims to solve <a href="http://www.oracle.com/technetwork/java/javaee/javaserverfaces-139869.html">JSF</a> and <a href="http://projects.spring.io/spring-boot/">Spring Boot</a> integration features. Current version includes <a href="http://www.oracle.com/technetwork/java/javaee/javaserverfaces-139869.html">JSF</a> and <a href="http://www.cdi-spec.org/">CDI</a> annotations support and <a href="http://projects.spring.io/spring-security/">Spring Security</a> JSF Facelet Tag support.</p>
 
 <h2>
 <a id="how-to-use" class="anchor" href="#how-to-use" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>How to use</h2>
 
-<p><a href="https://github.com/joinfaces/joinfaces-example">JoinFaces Example</a> shows JSF Spring Boot Starter usage. It may help you to choose the JSF Spring Boot Starter that fits your needs.</p>
+<p><a href="https://github.com/joinfaces/joinfaces-maven-jar-example">JoinFaces Example</a> shows JoinFaces Starter usage. It may help you to choose the JoinFaces Starter that fits your needs.</p>
 
-<p>You can find more examples <a href="https://github.com/joinfaces/joinfaces/wiki/Some-examples-of-JSF-Spring-Boot-Starter-usage">here.</a></p>
+<p>You can find more examples <a href="https://github.com/joinfaces/joinfaces/wiki/Examples-of-JoinFaces-usage">here.</a></p>
 
 <h2>
 <a id="key-features" class="anchor" href="#key-features" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Key Features</h2>
 
 <h3>
-<a id="eighteen-jsf-spring-boot-starters-available" class="anchor" href="#eighteen-jsf-spring-boot-starters-available" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Twenty four JSF Spring Boot Starters available</h3>
+<a id="fifteen-jsf-spring-boot-starters-available" class="anchor" href="#fifteen-jsf-spring-boot-starters-available" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Fifteen JoinFaces Starters available</h3>
 
 <p>There are many JSF Spring Boot Starters available.</p>
 
-<p>See detailed starters <a href="https://github.com/joinfaces/joinfaces/wiki/JSF-Spring-Boot-Starters">here.</a></p>
-
-<p>Note that all starters include the following libraries</p>
-
-<table>
-<thead>
-<tr>
-<th>Library</th>
-<th>Dependency</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><a href="http://omnifaces.org/">omnifaces</a></td>
-<td><a href="http://search.maven.org/#artifactdetails%7Corg.omnifaces%7Comnifaces%7C1.14%7Cjar">1.14</a></td>
-<td>Utility library for JSF 2</td>
-</tr>
-<tr>
-<td><a href="http://www.cdi-spec.org/">cdi-api</a></td>
-<td><a href="http://search.maven.org/#artifactdetails%7Cjavax.enterprise%7Ccdi-api%7C1.2%7Cjar">1.2</a></td>
-<td>Api of CDI (Contexts and Dependency Injection)</td>
-</tr>
-</tbody>
-</table>
+<p>See detailed starters <a href="https://github.com/joinfaces/joinfaces/wiki/Joinfaces-Starters-3.x">here.</a></p>
 
 <h3>
 <a id="jsf-properties-configuration-via-applicationproperties-or-applicationyml" class="anchor" href="#jsf-properties-configuration-via-applicationproperties-or-applicationyml" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>JSF properties configuration via application.properties or application.yml</h3>
@@ -143,7 +119,7 @@
 </tbody>
 </table>
 
-<p>Look full <a href="https://github.com/joinfaces/joinfaces/blob/master/jsf-spring-boot-autoconfigure/src/test/resources/application.yml">application.yml</a> example.</p>
+<p>Look full <a href="https://github.com/joinfaces/joinfaces/blob/master/joinfaces-autoconfigure/src/test/resources/application-propertyTest.yml">application.yml</a> example.</p>
 
 <p>Additional information in <a href="https://github.com/joinfaces/joinfaces/issues/22">#22</a></p>
 
@@ -251,7 +227,7 @@
 <h2>
 <a id="system-requirements" class="anchor" href="#system-requirements" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>System Requirements</h2>
 
-<p>By default, JSF Spring Boot Starter requires <a href="http://java.com">Java 7</a> and <a href="http://projects.spring.io/spring-boot/">Spring Boot 1.5.7</a> or above.</p>
+<p>By default, JSF Spring Boot Starter requires <a href="http://java.com">Java 8</a> and <a href="http://projects.spring.io/spring-boot/">Spring Boot 2.0.x</a> and <a href="https://javaserverfaces.github.io/">JSF 2.x</a>.</p>
 
 <h2>
 <a id="getting-help" class="anchor" href="#getting-help" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Getting Help</h2>
@@ -279,7 +255,6 @@
       </footer>
 
     </section>
-
 
   </body>
 </html>
